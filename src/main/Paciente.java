@@ -4,9 +4,17 @@ public class Paciente {
   double peso;
   double altura;
 
-  Paciente(double peso, double altura) {
+  public Paciente(double peso, double altura) {
     this.peso = peso;
     this.altura = altura;
+  }
+
+  public double getPeso() {
+    return peso;
+  }
+
+  public double getAltura() {
+    return altura;
   }
 
   public double calcularIMC(double peso, double altura) {
